@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pygameclientserver"
+version = "0.1.0"
+description = "A Pygame client-server game"
+authors = ["Your Name <your.email@example.com>"]
+packages = [
+    { include = "*.py" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pygame = "2.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api" 
